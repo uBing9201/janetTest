@@ -1,0 +1,86 @@
+body{font-size: 14px;line-height:1.42857143;color:#333;background: #fff;}
+#wrap{margin-top:0;padding-top: 130px;position: relative;}
+
+#hd{z-index: 99;position: absolute;background: #fff;width:100%;min-width: 1250px;}
+#hd .hdSub{border-bottom:1px solid #dfdfdf;width:100%;}
+#hd .hdSub .hdSubInner{width:1250px;margin:0 auto;text-align: left;}
+#hd .hdSub .hdSubInner #tnb{background: #fff;height:55px;padding-top:3px;}
+#hd .hdSub .hdSubInner #tnb .hd_login{width:1250px;margin:0 auto;text-align: left;}
+#hd .hdSub .hdSubInner #tnb .hd_login li{display: inline-block;line-height:0;z-index: 9;}
+#hd .hdSub .hdSubInner #tnb .hd_login li .logo{float:left;margin:0 30px 3px 0;}
+#hd .hdSub .hdSubInner #tnb .hd_login li .logo a{display: block;color:#919191;padding: 0 10px;line-height:1;text-align: center;}
+#hd .hdSub .hdSubInner #tnb .hd_login li .logo a img{vertical-align: middle;}
+
+#hd .hdSub .hdSubInner #tnb .hd_login li .hd_sch{width:400px;border:2px solid transparent;border-radius: 40px;box-shadow: 3px 3px 15px rgba(221,185,189,.3);z-index: 3;height:40px;margin-top:15px;font-family: "Noto Sans KR";transition: all .5s ease-in-out;background: linear-gradient(to right, white, white), linear-gradient( 135deg, #9c57f5,#9babff);background-clip: padding-box, border-box; background-origin: padding-box, border-box;}
+#hd .hdSub .hdSubInner #tnb .hd_login li .hd_sch.active{width:650px;}
+#hd .hdSub .hdSubInner #tnb .hd_login li .hd_sch legend{position: absolute;text-indent: -999999em;overflow: hidden;}
+#hd .hdSub .hdSubInner #tnb .hd_login li .hd_sch .search_tit{float:left;width:100px;padding: 0 10px 0 25px;height:35px;line-height:36px;font-size:14px;}
+#hd .hdSub .hdSubInner #tnb .hd_login li .hd_sch #sch_stx{float:left;width:230px;height:35px;padding-left:0;background: #fff;border:0;font-size:14px;outline: none;line-height:36px;;font-family: "Noto Sans KR";font-weight: 500}
+#hd .hdSub .hdSubInner #tnb .hd_login li .hd_sch #sch_stx::placeholder{color:#919191;opacity: .8;}
+#hd .hdSub .hdSubInner #tnb .hd_login li .hd_sch:hover #sch_stx::placeholder{color:#9c57f5;font-weight: 600;opacity: 1;}
+#hd .hdSub .hdSubInner #tnb .hd_login li .hd_sch #sch_submit{float:right;border:0;cursor: pointer;margin:3px;background: none;line-height:initial;width:30px;height:30px;padding: 0;}
+#hd .hdSub .hdSubInner #tnb .hd_login li .hd_sch #sch_submit img{width:30px;height:30px;}
+
+#hd .hdSub .hdSubInner #tnb .hd_login .login_wr{float:right;}
+#hd .hdSub .hdSubInner #tnb .hd_login .login_wr li{display: inline-block;margin-right:20px;}
+#hd .hdSub .hdSubInner #tnb .hd_login .login_wr li:last-child{margin-right:0;}
+#hd .hdSub .hdSubInner #tnb .hd_login .login_wr li a{font-weight: 500;font-family: 'Noto Sans KR';color:#919191;line-height:1;text-align: center;}
+#hd .hdSub .hdSubInner #tnb .hd_login .login_wr li:hover a{color:#9c57f5;}
+#hd .hdSub .hdSubInner #tnb .hd_login .login_wr li:last-child a{line-height:1.5;padding:3px 9px;background: none;border-radius: 27px;font-size:14px;}
+#hd .hdSub .hdSubInner #tnb .hd_login .login_wr li a span{height:30px;display: block;margin-top:-10px;}
+#hd .hdSub .hdSubInner #tnb .hd_login .login_wr li:nth-child(1) a span{background: url(https://janet.co.kr/img/common/header/member.png)no-repeat 50% 3px;}
+#hd .hdSub .hdSubInner #tnb .hd_login .login_wr li:nth-child(2) a span{background: url(https://janet.co.kr/img/common/header/login.png)no-repeat 50% top;}
+#hd .hdSub .hdSubInner #tnb .hd_login .login_wr li:nth-child(3) a span{background: url(https://janet.co.kr/img/common/header/company.png)no-repeat 23px 3px;}
+
+#hd .hdSub .hdSubInner #hd_wrapper{position: relative;margin: 0 auto;width:1250px;line-height: 65px;height:75px;zoom:1;}
+#hd .hdSub .hdSubInner #hd_wrapper::after{display: block;content: "";clear: both;visibility: hidden;}
+
+#hd .hdSub .hdSubInner #hd_wrapper #gnb{display: block;}
+#hd .hdSub .hdSubInner #hd_wrapper #gnb .logo2{display: none;}
+#hd .hdSub .hdSubInner #hd_wrapper #gnb .logo2 img{vertical-align: middle;}
+
+#hd .hdSub .hdSubInner #hd_wrapper #gnb .gnb_wrap{width:100%;display: inline-block;}
+
+#hd .hdSub .hdSubInner #hd_wrapper #gnb .gnb_wrap li{display: inline-block;}
+#hd .hdSub .hdSubInner #hd_wrapper #gnb .gnb_wrap > li:first-child{width:55px;}
+#hd .hdSub .hdSubInner #hd_wrapper #gnb .gnb_wrap li:first-child button{width:55px;height:55px;line-height: 50px;border-radius: 50%;text-align: center;font-size: 1.6em;border:0;color:#706efe;background: none;cursor: pointer;}
+#hd .hdSub .hdSubInner #hd_wrapper #gnb .gnb_wrap li:first-child button img{width:100%;height:100%;object-fit: cover;vertical-align: middle;}
+#hd .hdSub .hdSubInner #hd_wrapper #gnb .gnb_wrap li:first-child button span{display: inline-block;font-size: 0;}
+
+#hd .hdSub .hdSubInner #hd_wrapper #gnb .gnb_wrap li.gnb_1dli{font-family: "Noto Sans KR";padding:0 5px;font-size:16px;font-weight: 500;position: relative;text-align: center;width: 100px;}
+#hd .hdSub .hdSubInner #hd_wrapper #gnb .gnb_wrap li.gnb_1dli a{line-height: 65px;color:#333;}
+#hd .hdSub .hdSubInner #hd_wrapper #gnb .gnb_wrap li.gnb_1dli:nth-child(5){width:80px;}
+#hd .hdSub .hdSubInner #hd_wrapper #gnb .gnb_wrap li.gnb_1dli:nth-child(6){width:80px;}
+#hd .hdSub .hdSubInner #hd_wrapper #gnb .gnb_wrap li.gnb_1dli a:hover{color:#9c57f5;}
+#hd .hdSub .hdSubInner #hd_wrapper #gnb .gnb_wrap li.gnb_1dli:nth-child(5) a:hover{text-indent: -99999px;width:76px;display: block;background: url("https://janet.co.kr/img/common/gnbInfo.png")no-repeat 1px 18px;}
+#hd .hdSub .hdSubInner #hd_wrapper #gnb .gnb_wrap li.gnb_1dli:nth-child(6) a:hover{text-indent: -99999px;width:76px;display: block;background: url("https://janet.co.kr/img/common/gnbTalk.png")no-repeat center 16px;}
+
+#hd .hdSub .hdSubInner #hd_wrapper #gnb .gnb_wrap ul > ul{float:right;}
+#hd .hdSub .hdSubInner #hd_wrapper #gnb .gnb_wrap ul > ul li{display: inline-block;}
+#hd .hdSub .hdSubInner #hd_wrapper #gnb .gnb_wrap ul > ul li.gnb_1dli{font-family: "Noto Sans KR";padding:0 5px;font-size:16px;font-weight: 500;position: relative;text-align: center;width: 100px;}
+#hd .hdSub .hdSubInner #hd_wrapper #gnb .gnb_wrap ul > ul li.gnb_1dli a{height:55px;}
+#hd .hdSub .hdSubInner #hd_wrapper #gnb .gnb_wrap ul > ul li.gnb_1dli:nth-child(1) a{text-indent: -99999px;width:100px;display: block;background: url("https://janet.co.kr/img/common/header/aca.png")no-repeat 50% 12px;}
+#hd .hdSub .hdSubInner #hd_wrapper #gnb .gnb_wrap ul > ul li.gnb_1dli:nth-child(2) a{text-indent: -99999px;width:100px;display: block;background: url("https://janet.co.kr/img/common/header/commu.png")no-repeat 30px 14px;}
+#hd .hdSub .hdSubInner #hd_wrapper #gnb .gnb_wrap ul > ul li.gnb_1dli:nth-child(3) a{text-indent: -99999px;width:100px;display: block;background: url("https://janet.co.kr/img/common/header/ai.png")no-repeat 50% 24px;}
+#hd .hdSub .hdSubInner #hd_wrapper #gnb .gnb_wrap ul > ul li.gnb_1dli:nth-child(3) a:hover{text-indent: -99999px;width:100px;display: block;background: url("https://janet.co.kr/img/common/header/ai_ov.png")no-repeat 18px -1px;}
+
+#hd .hdSub .hdSubInner #gnb_all{position: absolute;width:100%;top:129px;left:0;background: #fff;border-top:1px solid #dfdfdf;border-bottom:1px solid #dfdfdf;z-index: 999;display: none;}
+#hd .hdSub .hdSubInner #gnb_all .gnb_al_ul{background: #fff;width:1250px;display: flex;}
+.inner{margin:0 auto;width:1250px;}
+#hd .hdSub .hdSubInner #gnb_all .gnb_al_ul .gnb_al_li{flex:1;padding:30px 29px;align-items: flex-start;border-right: 1px solid #efefef;}
+#hd .hdSub .hdSubInner #gnb_all .gnb_al_ul .gnb_al_li:first-child{border-left:1px solid #efefef;}
+#hd .hdSub .hdSubInner #gnb_all .gnb_al_ul .gnb_al_li > a{font-size:14px;display: block;position: relative;margin-bottom: 10px;font-weight: bold;color:#4a4a4a;}
+#hd .hdSub .hdSubInner #gnb_all .gnb_al_ul .gnb_al_li ul li{padding:7px 0;line-height: 1.3;font-size:13px;}
+#hd .hdSub .hdSubInner #gnb_all .gnb_al_ul .gnb_al_li ul li a{color:#4a4a4a;}
+
+#hd.fixed{position: fixed;top:0;width:100%;border-bottom:1px solid #d4d4d4;}
+#hd.fixed #tnb{height:0;}
+#hd.fixed .logo{display: none;}
+#hd.fixed .hdSub .hdSubInner #hd_wrapper #gnb .gnb_wrap{width:unset;display: unset;}
+#hd.fixed .hd_sch{display: none;}
+#hd.fixed .login_wr{z-index: 9999;display: inline-block;margin-top:30px;}
+#hd.fixed .hdSub .hdSubInner #tnb .hd_login .login_wr li:last-child a{padding:0;}
+#hd.fixed .hdSub .hdSubInner #tnb{height:0;}
+#hd.fixed .hdSub .hdSubInner #hd_wrapper #gnb .logo2{float:left;margin:0 30px 0 0;display: block;}
+#hd.fixed .hdSub .hdSubInner #hd_wrapper{margin:0;margin-top:7px;width:915px;}
+#hd.fixed .hdSub .hdSubInner #hd_wrapper #gnb .gnb_wrap ul > ul.float-r{float:none;display: inline-block;}

@@ -1,0 +1,61 @@
+*{box-sizing: border-box;}
+#info{padding: 55px 0;overflow: hidden;background: linear-gradient(to right, rgba(173,207,255,0.25) 0%,rgba(173,206,255,0.25) 1%,rgba(181,176,248,0.25) 50%,rgba(187,143,240,0.25) 100%);width:100%;}
+
+#info .infoInner{position: relative;width:1250px;margin:0 auto;display: flex;}
+#info .infoInner .imgBanner{width:420px;height:370px;margin-right:10px;box-shadow: 3px 3px 15px rgba(221,185,189,.3);}
+#info .infoInner .imgBanner .swiper-slide{width: 100%;height:100%;}
+#info .infoInner .imgBanner .swiper-slide a{display: block;width:100%;height:100%;}
+#info .infoInner .imgBanner .swiper-pagination{color:#fff;text-shadow: 0px 0px 6px rgba(0,0,0,.8);width:40px;position: absolute;right:20px;bottom:20px;left:auto;font-size: 12px;}
+#info .infoInner .imgBanner .swiper-slide.sw1{background: url(https://janet.co.kr/img/common/main/banner/mainBn_top_01.png) no-repeat 50% 50%;}
+#info .infoInner .imgBanner .swiper-slide.sw2{background: url(https://janet.co.kr/img/common/main/banner/mainBn_top_02.png) no-repeat 50% 50%;}
+#info .infoInner .imgBanner .swiper-slide.sw3{background: url(https://janet.co.kr/img/common/main/banner/mainBn_top_03.png) no-repeat 50% 50%;}
+#info .infoInner .imgBanner .swiper-slide.sw4{background: url(https://janet.co.kr/img/common/main/banner/mainBn_top_04.png) no-repeat 50% 50%;}
+
+#info .infoInner .mainInfo{width: 550px;height: 370px;background: #fff;margin-right:10px;padding:40px 30px 35px;position: relative;box-shadow: 3px 3px 15px rgba(221,185,189,.3);}
+#info .infoInner .mainInfo .swiper-slide{width:100%;height:100%;position: relative;}
+#info .infoInner .mainInfo .swiper-slide h1{font-family: "Noto Sans KR";font-size:17px;font-weight: 500;line-height:1;margin-left:15px;letter-spacing: -0.05em;}
+
+#info .infoInner .mainInfo .swiper-slide ul{overflow: hidden;padding:20px 10px;display: flex;flex-wrap: wrap;}
+#info .infoInner .mainInfo .swiper-slide ul li{padding:10px 20px;width:230px;width:50%;display: table;}
+#info .infoInner .mainInfo .swiper-slide ul li a{display: block;width:100%;height:100%;color:#333;letter-spacing: -0.05em;line-height: 1.4;}
+#info .infoInner .mainInfo .swiper-slide ul li a span{width:90px;display: table-cell;}
+#info .infoInner .mainInfo .swiper-slide ul li a .txt_box{width:95px;display: table-cell;vertical-align: middle;padding-left:10px;}
+#info .infoInner .mainInfo .swiper-slide ul li a .txt_box h3{margin-bottom:5px;font-size:14px;font-weight: 600;}
+#info .infoInner .mainInfo .swiper-slide ul li a .txt_box p{word-break:keep-all;font-family: 'Noto Sans KR';font-size:12px;}
+
+#info .infoInner .mainInfo .swiper-slide:nth-child(6) ul li{width:33.33%;margin:0 auto;text-align: center;padding: 20px}
+#info .infoInner .mainInfo .swiper-slide:nth-child(6) ul li a span{display: block;width:100%;}
+#info .infoInner .mainInfo .swiper-slide:nth-child(6) ul li a .txt_box{display: block;width:100%}
+
+#info .infoInner .mainInfo .mainInfoAdv{position: absolute;width:100%;left:53px;bottom:15px;}
+
+#info .infoInner .mainInfo .swiper-button-prev{width:19px;height:19px;border:1px solid #dfdfdf;padding:0;margin:0;color:#8e8cfd;right:49px;left:auto;top:40px;}
+#info .infoInner .mainInfo .swiper-button-prev:after{font-size:50%;font-weight: 800;}
+#info .infoInner .mainInfo .swiper-button-next{width:19px;height:19px;border:1px solid #dfdfdf;padding:0;margin:0;color:#8e8cfd;right:30px;top:40px;}
+#info .infoInner .mainInfo .swiper-button-next:after{font-size:50%;font-weight: 800;}
+
+#info .infoInner .mainChart{width:260px;height: 370px;background: #fff;padding:40px 30px 35px;box-shadow: 3px 3px 15px rgba(221,185,189,.3);}
+
+#info .infoInner .mainChart .swiper-slide h1{font-family: "Noto Sans KR";font-size:17px;font-weight: 500;line-height:1;margin-left:15px;letter-spacing: -0.05em;}
+
+#info .infoInner .mainChart .swiper-slide ul{padding:25px 0;}
+#info .infoInner .mainChart .swiper-slide ul li{line-height:25px;font-size:13px;}
+#info .infoInner .mainChart .swiper-slide ul li:before{font-weight: bold;width:20px;color:#bababa;display: inline-block;text-align: center;}
+#info .infoInner .mainChart .swiper-slide ul li:nth-child(1):before{content:"1";}
+#info .infoInner .mainChart .swiper-slide ul li:nth-child(2):before{content:"2";}
+#info .infoInner .mainChart .swiper-slide ul li:nth-child(3):before{content:"3";}
+#info .infoInner .mainChart .swiper-slide ul li:nth-child(4):before{content:"4";}
+#info .infoInner .mainChart .swiper-slide ul li:nth-child(5):before{content:"5";}
+#info .infoInner .mainChart .swiper-slide ul li:nth-child(6):before{content:"6";}
+#info .infoInner .mainChart .swiper-slide ul li:nth-child(7):before{content:"7";}
+#info .infoInner .mainChart .swiper-slide ul li:nth-child(8):before{content:"8";}
+#info .infoInner .mainChart .swiper-slide ul li:nth-child(9):before{content:"9";}
+#info .infoInner .mainChart .swiper-slide ul li:nth-child(10):before{content:"10";}
+
+#info .infoInner .mainChart .swiper-slide ul li a{color:#333;display: inline-block;}
+#info .infoInner .mainChart .swiper-slide ul li a:hover{text-decoration: underline;}
+
+#info .infoInner .mainChart .swiper-button-prev{width:19px;height:19px;border:1px solid #dfdfdf;padding:0;margin:0;color:#8e8cfd;right:49px;left:auto;top:40px;}
+#info .infoInner .mainChart .swiper-button-prev:after{font-size:50%;font-weight: 800;}
+#info .infoInner .mainChart .swiper-button-next{width:19px;height:19px;border:1px solid #dfdfdf;padding:0;margin:0;color:#8e8cfd;right:30px;top:40px;}
+#info .infoInner .mainChart .swiper-button-next:after{font-size:50%;font-weight: 800;}
